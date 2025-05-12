@@ -1,0 +1,59 @@
+
+
+    .container {
+      width: 600px;
+      margin: 40px auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .row input, .row textarea {
+      flex: 1;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .row-full {
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .row-full input, .row-full textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    .row-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .row-buttons button {
+      background-color: #4fc3f7;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .row-buttons small {
+      color: #666;
+    }
+
+    .error {
+      color: red;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }

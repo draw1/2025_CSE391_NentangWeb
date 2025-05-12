@@ -1,0 +1,125 @@
+
+header {
+  background-color: #ffb3ec;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+#page-logo a {
+  color: #fff700;
+}
+
+nav {
+    border: 4px solid #ffd700;
+    padding: 5px 10px;
+}
+nav ul {
+  display: flex;
+  gap: 7px;
+}
+
+nav a {
+  color: white;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+#hero {
+  background: url('images/ocean.jpg') center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid hotpink;
+}
+
+#hero-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+#hero-content h1 {
+  margin-bottom: 10px;
+}
+
+#hero-content p {
+  margin-bottom: 10px;
+}
+
+#hero-content a {
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+#hero-content a:hover {
+  background-color: gold;
+}
+
+#highlights {
+  background-color: #c4f3ff;
+  color: black;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+#highlights h2 {
+  margin-bottom: 20px;
+}
+
+#destinations {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.destination {
+  width: 30%;
+  min-width: 250px;
+}
+
+.destination img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination p {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #111;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
